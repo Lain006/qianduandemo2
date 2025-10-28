@@ -1,0 +1,13 @@
+创建git项目时的常见指令：
+项目初始化----------------git init
+提交当前文件夹下的所有内容------------------git add .
+设立本次项目的提交主分支---------------------git branch -M main
+把本地文件夹关联到线上url仓库-------------------git remote add origin ***********************
+将当前文件夹的代码推送到远程url仓库------------------git push -u origin main
+
+
+修改git项目时的常见指令：
+查看当前代码的修改状态或修改了哪些文件：git status
+查看某个文件具体修改了哪些地方：git diff *****/git diff
+往本地拉取代码：git pull origin main(测试分支名称)
+将修改好的代码推送到远程url仓库： git push origin main
